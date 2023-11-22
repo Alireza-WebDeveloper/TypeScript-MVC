@@ -1,0 +1,14 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "javascript",
+      "description": "JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript "
+    },
+    {
+      "id": 2,
+      "name": "react",
+      "description": "JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript "
+    }
+  ]
+}
