@@ -11,7 +11,7 @@ interface CourseModelType {
 }
 
 class CourseModel implements CourseModelType {
-  public data: CourseDataResponse[] = [];
+  private data: CourseDataResponse[] = [];
 
   getAllCourses = async (): Promise<void> => {
     try {
@@ -23,6 +23,9 @@ class CourseModel implements CourseModelType {
       throw new Error(error.message);
     }
   };
+  getData() {
+    return this.data;
+  }
 }
 
 export default new CourseModel();

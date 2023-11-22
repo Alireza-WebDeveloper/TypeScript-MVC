@@ -12,7 +12,7 @@ class CourseController {
     }
   };
   getData() {
-    return this.model.data;
+    return this.model.getData();
   }
 }
 
